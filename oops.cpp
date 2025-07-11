@@ -34,8 +34,14 @@ int main(){
     s9.setInfo(1510); // using setter method to set value of private properties
     s9.getInfo();
 
+
     // Student s1("Rashed",15108, 3.34); //creating an object t1 using parameterized constructor
     // s1.getInfo();
     // Student s2(s1); // default copy constructor
     // s2.getInfo();
+
+    // ---- Destructor is opposite of constructor used to clean up dynamic allocated memory
+    // ---- and objects which goes out of scope to prevent memory leaks.
+
+    return 0;
 };
