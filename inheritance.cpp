@@ -3,6 +3,12 @@
 
 using namespace std;
 
+/*
+When one object acquires all the properties and behaviours of the parent object, 
+i.e. known as inheritance, it provides code reusability. It is used to achieve
+runtime polymorphism.
+*/
+
 class Person {
     public:                        
         string name;
